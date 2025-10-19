@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "/Users/avapakzad/Personal Projects/MyToDoList/javafx-sdk-24.0.1/lib/*.jar",
+        "/Users/avapakzad/Personal Projects/MyToDoList/lib/gson-2.10.1.jar",
+        "lib/**/*.jar"
+    ]
+
+}
