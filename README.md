@@ -1,18 +1,30 @@
-## Getting Started
+# 📝 JavaFX To-Do List App
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple desktop to-do list application built with Java 25 and JavaFX, featuring task creation, editing, priority setting, and local JSON storage.
 
-## Folder Structure
+## 🚀 Features
 
-The workspace contains two folders by default, where:
+- ✅ Add, remove, and complete tasks
+- 📝 Edit task names after creation
+- ⚡ Set task priorities (High, Medium, Low)
+- 💾 Save and load tasks using a JSON file
+- 🖱️ User-friendly GUI built with JavaFX
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Tech Stack
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **Java 25**
+- **JavaFX SDK 24.0.1**
+- **Gson** (for JSON serialization)
+- **VSCode**
 
-## Dependency Management
+## 🧰 How to Run
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Option 1: Compile & Run Manually (Command Line)
+
+1. [Download JavaFX SDK](https://gluonhq.com/products/javafx/) and extract it.
+2. Open a terminal in the project directory.
+3. Run the app with:
+
+```bash
+java --module-path /Users/avapakzad/Personal Projects/MyToDoList/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml -cp . GUI1
